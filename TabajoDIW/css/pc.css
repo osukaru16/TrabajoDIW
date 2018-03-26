@@ -1,0 +1,255 @@
+body {
+    background-color: #ccf2ff;
+}
+
+#contenedor {
+    margin: auto;
+    width: 1000px;
+    /*height: auto;*/
+    height: 1000px;
+    background-color: #00f2ff;
+}
+
+#contenedor .cabecera {
+    height: 200px;
+    background-color: grey;
+}
+
+#contenedor .cabecera .migasPan {
+    float: left;
+}
+
+#contenedor .cabecera .zonaLogoTag {
+    width: 110px;
+    height: auto;
+}
+
+#contenedor .cabecera .logoContenedor {
+    width: 100px;
+    height: 100px;
+    background-color: #80ff80;
+    float: left;
+}
+
+#contenedor .cabecera a {
+    text-decoration: none;
+    color: white;
+}
+
+#contenedor .cabecera .tagline {
+    color: white;
+}
+
+#contenedor .cabecera .juegoAlearotio {
+    float: left;
+    width: 400px;
+    height: 100px;
+}
+
+#contenedor .cabecera .juegoAlearotio .areaJuego {
+    margin-left: 50%;
+}
+
+#contenedor .cabecera .juegoAlearotio .areaJuego .imagenAleatoria {
+    width: 50px;
+    height: 50px;
+    background-color: #e6e600;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
+
+#contenedor .contenido h1 {
+    text-align: center;
+}
+
+#contenedor .contenido a {
+    text-decoration: none;
+}
+
+#contenedor .cabecera .buscador {
+    /*float: left;*/
+    float: right;
+    margin: 1%;
+}
+
+#contenedor .contenido a {
+    text-decoration: none;
+}
+
+#contenedor .contenido .carruselJuegos {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
+
+#contenedor .contenido .opcionesElegir {
+    margin-left: 1%;
+    margin-top: 10px;
+    width: 200px;
+    height: 100px;
+    background-color: #b3b3b3;
+    color: white;
+    float: left;
+    text-align: center;
+}
+
+#contenedor .contenido .opcionesElegir img {
+    width: 100px;
+}
+
+#contenedor .infoJuego {
+    text-align: center;
+}
+
+#contenedor .imgsContenedor {
+    width: 100%;
+    height: 500px;
+}
+
+#contenedor .imgsContenedor .imgsJuego {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+
+#contenedor .videosContenedor {
+    width: 100%;
+    height: 400px;
+}
+
+#contenedor .videosContenedor .videosJuego {
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-left: 3%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#contenedor .contenedorOpcionJuego {
+    width: 100%;
+    height: 200px;
+    padding-left: 25%;
+}
+
+#contenedor .contenedorOpcionJuego .opcionJuego {
+    width: 100px;
+    height: 50px;
+    float: left;
+    margin-left: 3%;
+    background-color: orange;
+    color: white;
+    text-align: center;
+}
+
+#contenedor .contenedorJuego {
+    width: 900px;
+    height: 530px;
+}
+
+#contenedor .contenedorJuego .botonesLeft {
+    width: 200px;
+    height: 500px;
+    background-color: #ff8080;
+}
+
+#contenedor .contenedorJuego .pantallaJuego {
+    width: 500px;
+    height: 500px;
+    background-color: black;
+}
+
+#contenedor .contenedorJuego .botonesRight {
+    width: 200px;
+    height: 500px;
+    background-color: #80ffaa;
+}
+
+#contenedor .mandoJuego {
+    float: left;
+}
+
+#contenedor .contenedorJuego .barraOpciones {
+    width: 900px;
+    height: 100%;
+    /*height: 30px;*/
+    /*background-color: #dfdfe6;*/
+    background-color: blue;
+}
+
+#contenedor .contenedorJuego .barraOpciones .pantallaGrande {
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+#contenedor .contenedorJuego .barraOpciones .pantallaCompleta {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+#contenedor .contenedorJuego .botonesLeft .botonArriba {
+    margin-left: 80px;
+    margin-top: 100px;
+}
+
+#contenedor .contenedorJuego .botonesLeft .botonIzquierda {
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+#contenedor .contenedorJuego .botonesLeft .botonDerecha {
+    margin-left: 135px;
+    float: left;
+    margin-top: -20px;
+}
+
+#contenedor .contenedorJuego .botonesLeft .botonAbajo {
+    margin-left: 75px;
+    margin-top: 15px;
+}
+
+#contenedor .contenedorJuego .botonesRight .botonX {
+    background-color: #00028A;
+    color: grey;
+    margin-left: 85px;
+    margin-top: 80px;
+    border-radius: 100%;
+}
+
+#contenedor .contenedorJuego .botonesRight .botonY {
+    background-color: #044C4E;
+    color: grey;
+    margin-left: 30px;
+    margin-top: 35px;
+    border-radius: 100%;
+}
+
+#contenedor .contenedorJuego .botonesRight .botonA {
+    background-color: #D60002;
+    color: grey;
+    margin-left: 140px;
+    float: left;
+    margin-top: -21px;
+    border-radius: 100%;
+}
+
+#contenedor .contenedorJuego .botonesRight .botonB {
+    background-color: #FCD035;
+    color: grey;
+    margin-left: 85px;
+    margin-top: 15px;
+    border-radius: 100%;
+}
