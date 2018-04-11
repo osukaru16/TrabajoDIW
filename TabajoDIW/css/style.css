@@ -3,6 +3,69 @@ body {
     background-color: #FFFFFF;
 }
 
+.aventuras {
+    background: url(../img/indiana.jpg);
+    background-size: 100% 100%;
+}
+
+.deportes {
+    background: url(../img/deportes.jpg);
+    background-size: 100% 100%;
+}
+
+.accion {
+    background: url(../img/accion.jpg);
+    background-size: 100% 100%;
+}
+
+.plataformas {
+    background: url(../img/j_plataformas.jpg);
+    background-size: 100% 100%;
+}
+
+.estrategia {
+    background: url(../img/estrategia.jpg);
+    background-size: 100% 100%;
+}
+
+.construccion {
+    background: url(../img/construccion.jpg);
+    background-size: 100% 100%;
+}
+
+.puzzles {
+    background: url(../img/puzzles.jpg);
+    background-size: 100% 100%;
+}
+
+.lucha {
+    background: url(../img/lucha.jpg);
+    background-size: 100% 100%;
+}
+
+.rol {
+    background: url(../img/rol.jpg);
+    background-size: 100% 100%;
+}
+
+.terror {
+    background: url(../img/terror.jpg);
+    background-size: 100% 100%;
+}
+
+.galges {
+    background: url(../img/galges.jpg);
+    background-size: 100% 100%;
+}
+
+.otros {
+    background: url(../img/Generos.jpg);
+    background-size: 100% 100%;
+}
+
+
+
+
 .bg-dark {
     background-color: #000000 !important;
 }
@@ -62,9 +125,22 @@ footer {
     width: 100px;
 }
 
+.w70 {
+    width: 70px;
+}
+
+.w60 {
+    width: 60px;
+}
+
 .h100 {
     height: 100px;
     width: 100px;
+}
+
+.blog-rol {
+    width: 300px;
+    height: 200px;
 }
 
 .derecha {
@@ -81,4 +157,12 @@ footer {
 
 .margen-inferior {
     margin-bottom: 60px;
+}
+
+.fondo-gris {
+    background: #9e9e9e17;
+}
+
+.fuente-700 {
+    font-weight: 700;
 }
